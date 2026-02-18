@@ -2,6 +2,7 @@ return
 {
   "NeogitOrg/neogit",
   lazy = true,
+  enabled = false,
   dependencies = {
     "nvim-lua/plenary.nvim",         -- required
 
@@ -17,6 +18,6 @@ return
   },
   cmd = "Neogit",
   keys = {
-    { "<leader>gg", "<cmd>Neogit<cr>", desc = "Show Neogit UI" }
+    -- { "<leader>gg", "<cmd>Neogit<cr>", desc = "Show Neogit UI" }
   }
 }

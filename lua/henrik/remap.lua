@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "H", vim.diagnostic.open_float, { desc = "Show diagnostic" })
-vim.keymap.set("n", "L", vim.lsp.buf.hover, { desc = "Show hover information" })
+vim.keymap.set("n", "L", vim.lsp.buf.references, { desc = "Show References" })
 
 -- Move selected lines in visual mode
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selected lines down" })
